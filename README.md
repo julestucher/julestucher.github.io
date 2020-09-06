@@ -1,2 +1,2 @@
 # juliatucher.github.io
-Personal website
+Repo for maintaining my personal website, which can be visited [here](https://juliatucher.github.io).
