@@ -19,10 +19,10 @@
     <nav class="border-bottom">
       <ul class="topnav">
         <li class="left"><a href="https://juliatucher.github.io" class="logo caps">Julia Tucher</a></li>
-        <li class="right"><a href="booklist.html">what i'm reading</a></li>
+        <li class="right"><a href="leadership.html">leadership</a></li>
         <li class="right"><a href="performing.html">performing</a></li>
         <li class="right"><a href="projects.html">projects</a></li>
-        <li class="right"><a href="cv.html">cv</a></li>
+        <li class="right"><a href="resume.html">resum&eacute</a></li>
       </ul>
     </nav>
     <header class="bg-splash border-bottom fill">
@@ -33,9 +33,15 @@
     </header>
     <main class="page-content">
       <h3>Student Body Demographics in Public Higher Education</h3>
-      <p> The accompanying webapp, which allows users to manipulate admissions statistics for each racial/ethnic group
-        and note the outcome on campus demographics and critical mass, can be found
-      <a href="https://juliatucher.shinyapps.io/admissions_modeling/">here</a>.</p>
+      <div class="row">
+        <p class="project-text-col">Co-author in a study to create a predictive model of racial/ethnic demographics in
+          undergraduate student bodies at public universities to measure effect and efficacy of affirmative
+          action admissions policies. The accompanying webapp, which allows
+          users to manipulate admissions statistics for each racial/ethnic group
+          and note the outcome on campus demographics and critical mass, can be found
+        <a href="https://juliatucher.shinyapps.io/admissions_modeling/">here</a>.</p>
+        <p class="project-image-col"><img class="image" data-src="images/webapp.jpeg" alt="webapp" src="images/webapp.jpeg" height=175></p>
+    </div>
       <h3>WSOmegle</h3>
       <p>
         Co-developer on a randomized chatting app, which pairs two users randomly via iMessage, similar to the popular
@@ -43,12 +49,25 @@
         as Williams students were sent home due to COVID-19 with the goal of connecting Williams Students (WS) with one another
         virtually in new ways.
       </p>
-      <h3>Parallelized Ray Tracer</h3>
-      <p>
-      </p>
       <h3>SWELL</h3>
-      <p>The interactive canvas tool can be found <a href="http://swell-lang.org/index.html">here</a>.</p>
+      <div class="row">
+      <p class="project-image-col"><img class="image" data-src="images/swell.jpeg" alt="swell" src="images/swell.jpeg" height=150></p>
+      <p class="project-text-col">The SWELL Entry-Level Learning Language (SWELL) is a programming language education research project, lead by Prof.
+        Daniel Barowy in the Williams College Department of Computer Science. The interactive canvas tool can be
+        found <a href="http://swell-lang.org/index.html">here</a>.</p>
+      </div>
+      <h3>Parallelized Ray Caster</h3>
+      <div class="row">
+      <p class="project-text-col">Implemented ray casting algorithm <a href="#section1">[1]</a> in parallel. Using NVIDIA's CUDA, tested varoius block sizes and
+        use of dynamic and static memory allocation. Compared optimizations using speed tests, and culminated in final paper.
+      </p>
+      <p class="project-image-col"><img class="image" data-src="images/teapot.jpeg" alt="webapp" src="images/teapot.jpeg" height=175></p>
+    </div>
       <h3>G Flat</h3>
+      <p>Programming language for computation of music, specifically notes, chords, and frequencies. Designed in two-person team, and
+        implemented in F#, with WAVE file and sinusoidal graph representation for visual and audial output.</p>
+      <p id="section1">[1] John F. Hughes Andries van Dam, James D. Fo- ley and Steven K. Feiner. Computer Graphics:
+Principles and Practice. 1.00 edition, 1982.</p>
     </main>
     <footer class="border-top bg-splash">
       <div>

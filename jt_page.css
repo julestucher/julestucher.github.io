@@ -59,6 +59,11 @@ li a:hover {
   background-color: #d4d4f7;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 img.image:hover{
   border-color: #5353df;
   opacity: 50%;
@@ -97,6 +102,11 @@ img.image:hover{
   padding: 5px;
   background-color: white;
   border: 1.5px solid #d4d4f7;
+}
+
+.col{
+  float: left;
+  width: 50%;
 }
 
 .col1{
@@ -151,6 +161,19 @@ img.image:hover{
   margin: auto;
 }
 
+.project-image-col{
+  display: block;
+  text-align: center;
+  padding-right: 2%;
+  float: left;
+  width: 38%;
+}
+
+.project-text-col{
+  float: left;
+  width: 60%;
+}
+
 .right{
   float: right;
 }
@@ -168,7 +191,13 @@ img.image:hover{
 }
 
 @media screen and (max-width: 600px) {
-  .col1, .col2 {
+  .col1, .col2, .col, .project-image-col, .project-text-col{
     width: 100%;
   }
+}
+
+#section1 {
+  font: 12px "Open Sans" !important;
+  color: ##5353df;
+  font-weight: normal;
 }
